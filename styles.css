@@ -121,16 +121,23 @@ h1, h2 {
 }
 
 .h3-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   max-width: 70%;
-  text-align: center;
-  margin: 0 auto;
   line-height: 1.5;
   border: 1px solid black;
-  padding: 100px;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  /* word-wrap: break-word;
+  font-size: calc(1.5em + 1vw); */
 }
 
 h3 {
   line-height: 1.5;
+  margin: 7px;
 }
 
 p {
@@ -139,6 +146,10 @@ p {
 
 .calendly-inline-widget {
   margin-top: -90px;
+}
+
+.custom-button {
+  font-size: 2em;
 }
 
 footer {
@@ -168,13 +179,19 @@ footer {
   }
 }
 
-@media (max-width: 1350px) {
+/* @media (max-width: 1350px) {
   .h3-container {
     display: none;
   }
-}
+} */
 
 @media (max-width: 1250px) {
+  .h3-container {
+    max-width: 90%;
+    padding: 50px;
+    word-wrap: break-word;
+  }
+  
   .header-logo-group h1 {
     font-size: 2em;
   }
@@ -208,6 +225,14 @@ footer {
 }
 
 @media (max-width: 1000px) {  
+  .custom-button {
+    width: 75%;
+  }
+  
+  .h3-container {
+    padding: 25px;
+  }
+  
   #about .container {
     max-width: 80%;
   }
@@ -244,7 +269,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {  
+@media (max-width: 600px) {   
   #about .container {
     max-width: 100%;
   }
