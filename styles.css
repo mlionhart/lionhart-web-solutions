@@ -116,6 +116,10 @@ h1, h2 {
   width: 25%;
 }
 
+#contact p {
+  max-width: 70%;
+}
+
 footer {
     margin-top: 2em;
 }
