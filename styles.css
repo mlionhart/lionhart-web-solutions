@@ -108,6 +108,14 @@ h1, h2 {
   border-radius: 50%;
 }
 
+.custom-page p:first-of-type {
+  width: 50%;
+}
+
+.custom-page p:last-of-type {
+  width: 25%;
+}
+
 footer {
     margin-top: 2em;
 }
@@ -190,6 +198,14 @@ footer {
 @media (max-width: 800px) {
   .header-icon {
     display: none;
+  }
+
+  .custom-page p:first-of-type {
+    width: 80%;    
+  }
+
+  .custom-page p:last-of-type {
+    width: 80%;    
   }
 }
 
