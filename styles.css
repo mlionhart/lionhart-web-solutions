@@ -137,6 +137,10 @@ p {
   line-height: 1.7;
 }
 
+.calendly-inline-widget {
+  margin-top: -90px;
+}
+
 footer {
     margin-top: 2em;
 }
