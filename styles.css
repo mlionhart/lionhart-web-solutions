@@ -129,6 +129,14 @@ h1, h2 {
   padding: 100px;
 }
 
+h3 {
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.7;
+}
+
 footer {
     margin-top: 2em;
 }
