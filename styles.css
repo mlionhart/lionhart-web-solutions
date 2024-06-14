@@ -120,11 +120,24 @@ h1, h2 {
   max-width: 70%;
 }
 
+.h3-container {
+  max-width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5;
+  border: 1px solid black;
+  padding: 100px;
+}
+
 footer {
     margin-top: 2em;
 }
 
 @media (max-width: 1500px) {
+  .h3-container {
+    padding: 50px;
+  }
+  
   .header-logo-group {
     margin-left: initial;
   }
@@ -140,6 +153,12 @@ footer {
 
   .btn-div h3 {
     font-size: 1.2em;
+  }
+}
+
+@media (max-width: 1350px) {
+  .h3-container {
+    display: none;
   }
 }
 
